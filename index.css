@@ -1,0 +1,63 @@
+body{
+    background-color: chocolate;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+#display {
+    border: black 2px solid;
+    height: 50px;
+    width: 70%;
+    font-size: xx-large;
+    padding: 20px;
+    margin-top: 20px;
+    white-space: pre-line;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 10px;
+}
+#numberRow, #qpRow,#alRow,#zcomRow {
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+#numberRow div, #qpRow div, #alRow div,#zcomRow div{
+    color: white;
+    background-color: black;
+    margin: 10px;
+    height: 30px;
+    width: 30px;
+    padding: 15px;
+    font-size: x-large;
+    text-align: center;
+}
+#spacebar {
+    background-color: black;
+    height: 50px;
+    width: 40%;
+    margin: 10px;
+}
+#option{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+#option div {
+    border: black solid 1px;
+    height: 25px;
+    width: 80px;
+    margin: 5px;
+    text-align: center;
+    padding: 15px;
+    font-size: 20px;
+    background-color: white;
+}
+#numberRow div {
+    font-size: large;
+}

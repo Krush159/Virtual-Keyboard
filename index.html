@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body id="body">
+    <input type="text" id="display" placeholder="                 masaischool.com"></input>
+    <div id="numberRow">
+        <div onclick="click_key(1,'!')" id='oneex'>!<br>1</div>
+        <div onclick="click_key(2,'@')" id='twoat'>@<br>2</div>
+        <div onclick="click_key(3,'#')" id='hash3'>#<br>3</div>
+        <div onclick="click_key(4,'$')" id='dolr4'>$<br>4 </div>
+        <div onclick="click_key(5,'%')" id='prcn5'>%<br>5</div>
+        <div onclick="click_key(6,'^')" id='powr6'>^<br>6</div>
+        <div onclick="click_key(7,'&')" id='andd7'>&<br>7 </div>
+        <div onclick="click_key(8,'*')" id='star8'>*<br>8</div>
+        <div onclick="click_key(9,'(')" id='brac9'>(<br>9</div>
+        <div onclick="click_key(0,')')" id='brac0'>)<br>0</div>
+        <div onclick="del_key()">DEL</div>
+    </div>
+    <div id="qpRow">
+        <div onclick="click_key('q')">Q</div>
+        <div onclick="click_key('w')">W</div>
+        <div onclick="click_key('e')">E</div>
+        <div onclick="click_key('r')">R</div>
+        <div onclick="click_key('t')">T</div>
+        <div onclick="click_key('y')">Y</div>
+        <div onclick="click_key('u')">U</div>
+        <div onclick="click_key('i')">I</div>
+        <div onclick="click_key('o')">O</div>
+        <div onclick="click_key('p')">P</div>
+    </div>
+    <div id="alRow">
+        <div onclick="click_key('a')">A</div>
+        <div onclick="click_key('s')">S</div>
+        <div onclick="click_key('d')">D</div>
+        <div onclick="click_key('f')">F</div>
+        <div onclick="click_key('g')">G</div>
+        <div onclick="click_key('h')">H</div>
+        <div onclick="click_key('j')">J</div>
+        <div onclick="click_key('k')">K</div>
+        <div onclick="click_key('l')">L</div>
+    </div>
+    <div id="zcomRow">
+        <div onclick="click_key('z')">Z</div>
+        <div onclick="click_key('x')">X</div>
+        <div onclick="click_key('c')">C</div>
+        <div onclick="click_key('v')">V</div>
+        <div onclick="click_key('b')">B</div>
+        <div onclick="click_key('n')">N</div>
+        <div onclick="click_key('m')">M</div>
+        <div onclick="click_key('.com')">.com</div>
+    </div>
+    <div id="spacebar" onclick="space_key('&nbsp')">
+    </div>
+    <div id="option">
+        <div onclick="caps_key()" id="capslock">CAPS</div>
+        <div onclick="shift_key()" id="shiftkey">SHIFT</div>
+        <div onclick="passwd_key()" id="password">PASSWD</div>
+        <div onclick="clean_key()" id="censor">CLEAN</div>
+        <div onclick="rev_key()" id="reverse">REV</div>
+    </div>
+    <script src="twscript.js"></script>
+</body>
+
+</html>
